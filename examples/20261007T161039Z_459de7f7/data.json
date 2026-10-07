@@ -1,0 +1,502 @@
+[
+  {
+    "carga_sintetica": 1,
+    "cpu_sintetica": 8.8383,
+    "id": 1
+  },
+  {
+    "carga_sintetica": 2,
+    "cpu_sintetica": 7.7085,
+    "id": 2
+  },
+  {
+    "carga_sintetica": 3,
+    "cpu_sintetica": 13.3093,
+    "id": 3
+  },
+  {
+    "carga_sintetica": 4,
+    "cpu_sintetica": 8.1244,
+    "id": 4
+  },
+  {
+    "carga_sintetica": 5,
+    "cpu_sintetica": 13.3588,
+    "id": 5
+  },
+  {
+    "carga_sintetica": 6,
+    "cpu_sintetica": 12.2569,
+    "id": 6
+  },
+  {
+    "carga_sintetica": 7,
+    "cpu_sintetica": 9.78,
+    "id": 7
+  },
+  {
+    "carga_sintetica": 8,
+    "cpu_sintetica": 14.8744,
+    "id": 8
+  },
+  {
+    "carga_sintetica": 9,
+    "cpu_sintetica": 10.775,
+    "id": 9
+  },
+  {
+    "carga_sintetica": 10,
+    "cpu_sintetica": 15.3365,
+    "id": 10
+  },
+  {
+    "carga_sintetica": 11,
+    "cpu_sintetica": 12.2986,
+    "id": 11
+  },
+  {
+    "carga_sintetica": 12,
+    "cpu_sintetica": 13.1071,
+    "id": 12
+  },
+  {
+    "carga_sintetica": 13,
+    "cpu_sintetica": 17.0452,
+    "id": 13
+  },
+  {
+    "carga_sintetica": 14,
+    "cpu_sintetica": 21.6685,
+    "id": 14
+  },
+  {
+    "carga_sintetica": 15,
+    "cpu_sintetica": 15.238,
+    "id": 15
+  },
+  {
+    "carga_sintetica": 16,
+    "cpu_sintetica": 16.8324,
+    "id": 16
+  },
+  {
+    "carga_sintetica": 17,
+    "cpu_sintetica": 21.4743,
+    "id": 17
+  },
+  {
+    "carga_sintetica": 18,
+    "cpu_sintetica": 25.2771,
+    "id": 18
+  },
+  {
+    "carga_sintetica": 19,
+    "cpu_sintetica": 22.171,
+    "id": 19
+  },
+  {
+    "carga_sintetica": 20,
+    "cpu_sintetica": 20.9668,
+    "id": 20
+  },
+  {
+    "carga_sintetica": 21,
+    "cpu_sintetica": 27.3626,
+    "id": 21
+  },
+  {
+    "carga_sintetica": 22,
+    "cpu_sintetica": 18.6658,
+    "id": 22
+  },
+  {
+    "carga_sintetica": 23,
+    "cpu_sintetica": 27.3847,
+    "id": 23
+  },
+  {
+    "carga_sintetica": 24,
+    "cpu_sintetica": 22.2961,
+    "id": 24
+  },
+  {
+    "carga_sintetica": 25,
+    "cpu_sintetica": 21.4426,
+    "id": 25
+  },
+  {
+    "carga_sintetica": 26,
+    "cpu_sintetica": 21.7779,
+    "id": 26
+  },
+  {
+    "carga_sintetica": 27,
+    "cpu_sintetica": 24.2848,
+    "id": 27
+  },
+  {
+    "carga_sintetica": 28,
+    "cpu_sintetica": 29.9613,
+    "id": 28
+  },
+  {
+    "carga_sintetica": 29,
+    "cpu_sintetica": 24.2073,
+    "id": 29
+  },
+  {
+    "carga_sintetica": 30,
+    "cpu_sintetica": 28.816,
+    "id": 30
+  },
+  {
+    "carga_sintetica": 31,
+    "cpu_sintetica": 29.9891,
+    "id": 31
+  },
+  {
+    "carga_sintetica": 32,
+    "cpu_sintetica": 27.924,
+    "id": 32
+  },
+  {
+    "carga_sintetica": 33,
+    "cpu_sintetica": 30.2774,
+    "id": 33
+  },
+  {
+    "carga_sintetica": 34,
+    "cpu_sintetica": 26.0279,
+    "id": 34
+  },
+  {
+    "carga_sintetica": 35,
+    "cpu_sintetica": 26.596,
+    "id": 35
+  },
+  {
+    "carga_sintetica": 36,
+    "cpu_sintetica": 28.6596,
+    "id": 36
+  },
+  {
+    "carga_sintetica": 37,
+    "cpu_sintetica": 34.004,
+    "id": 37
+  },
+  {
+    "carga_sintetica": 38,
+    "cpu_sintetica": 32.0759,
+    "id": 38
+  },
+  {
+    "carga_sintetica": 39,
+    "cpu_sintetica": 31.5415,
+    "id": 39
+  },
+  {
+    "carga_sintetica": 40,
+    "cpu_sintetica": 34.8556,
+    "id": 40
+  },
+  {
+    "carga_sintetica": 41,
+    "cpu_sintetica": 34.1318,
+    "id": 41
+  },
+  {
+    "carga_sintetica": 42,
+    "cpu_sintetica": 33.1977,
+    "id": 42
+  },
+  {
+    "carga_sintetica": 43,
+    "cpu_sintetica": 38.7438,
+    "id": 43
+  },
+  {
+    "carga_sintetica": 44,
+    "cpu_sintetica": 38.3899,
+    "id": 44
+  },
+  {
+    "carga_sintetica": 45,
+    "cpu_sintetica": 34.441,
+    "id": 45
+  },
+  {
+    "carga_sintetica": 46,
+    "cpu_sintetica": 38.3442,
+    "id": 46
+  },
+  {
+    "carga_sintetica": 47,
+    "cpu_sintetica": 38.452,
+    "id": 47
+  },
+  {
+    "carga_sintetica": 48,
+    "cpu_sintetica": 42.5514,
+    "id": 48
+  },
+  {
+    "carga_sintetica": 49,
+    "cpu_sintetica": 41.6945,
+    "id": 49
+  },
+  {
+    "carga_sintetica": 50,
+    "cpu_sintetica": 37.8794,
+    "id": 50
+  },
+  {
+    "carga_sintetica": 51,
+    "cpu_sintetica": 45.4017,
+    "id": 51
+  },
+  {
+    "carga_sintetica": 52,
+    "cpu_sintetica": 37.3807,
+    "id": 52
+  },
+  {
+    "carga_sintetica": 53,
+    "cpu_sintetica": 40.9812,
+    "id": 53
+  },
+  {
+    "carga_sintetica": 54,
+    "cpu_sintetica": 44.9714,
+    "id": 54
+  },
+  {
+    "carga_sintetica": 55,
+    "cpu_sintetica": 39.5198,
+    "id": 55
+  },
+  {
+    "carga_sintetica": 56,
+    "cpu_sintetica": 43.4896,
+    "id": 56
+  },
+  {
+    "carga_sintetica": 57,
+    "cpu_sintetica": 39.5921,
+    "id": 57
+  },
+  {
+    "carga_sintetica": 58,
+    "cpu_sintetica": 46.4822,
+    "id": 58
+  },
+  {
+    "carga_sintetica": 59,
+    "cpu_sintetica": 48.0457,
+    "id": 59
+  },
+  {
+    "carga_sintetica": 60,
+    "cpu_sintetica": 46.7303,
+    "id": 60
+  },
+  {
+    "carga_sintetica": 61,
+    "cpu_sintetica": 50.3548,
+    "id": 61
+  },
+  {
+    "carga_sintetica": 62,
+    "cpu_sintetica": 45.3375,
+    "id": 62
+  },
+  {
+    "carga_sintetica": 63,
+    "cpu_sintetica": 49.753,
+    "id": 63
+  },
+  {
+    "carga_sintetica": 64,
+    "cpu_sintetica": 49.3437,
+    "id": 64
+  },
+  {
+    "carga_sintetica": 65,
+    "cpu_sintetica": 49.799,
+    "id": 65
+  },
+  {
+    "carga_sintetica": 66,
+    "cpu_sintetica": 49.1621,
+    "id": 66
+  },
+  {
+    "carga_sintetica": 67,
+    "cpu_sintetica": 53.5997,
+    "id": 67
+  },
+  {
+    "carga_sintetica": 68,
+    "cpu_sintetica": 55.2468,
+    "id": 68
+  },
+  {
+    "carga_sintetica": 69,
+    "cpu_sintetica": 51.141,
+    "id": 69
+  },
+  {
+    "carga_sintetica": 70,
+    "cpu_sintetica": 53.6415,
+    "id": 70
+  },
+  {
+    "carga_sintetica": 71,
+    "cpu_sintetica": 48.2067,
+    "id": 71
+  },
+  {
+    "carga_sintetica": 72,
+    "cpu_sintetica": 55.2149,
+    "id": 72
+  },
+  {
+    "carga_sintetica": 73,
+    "cpu_sintetica": 55.2713,
+    "id": 73
+  },
+  {
+    "carga_sintetica": 74,
+    "cpu_sintetica": 59.331,
+    "id": 74
+  },
+  {
+    "carga_sintetica": 75,
+    "cpu_sintetica": 58.2192,
+    "id": 75
+  },
+  {
+    "carga_sintetica": 76,
+    "cpu_sintetica": 53.446,
+    "id": 76
+  },
+  {
+    "carga_sintetica": 77,
+    "cpu_sintetica": 55.0579,
+    "id": 77
+  },
+  {
+    "carga_sintetica": 78,
+    "cpu_sintetica": 58.4865,
+    "id": 78
+  },
+  {
+    "carga_sintetica": 79,
+    "cpu_sintetica": 52.6256,
+    "id": 79
+  },
+  {
+    "carga_sintetica": 80,
+    "cpu_sintetica": 57.617,
+    "id": 80
+  },
+  {
+    "carga_sintetica": 81,
+    "cpu_sintetica": 55.2805,
+    "id": 81
+  },
+  {
+    "carga_sintetica": 82,
+    "cpu_sintetica": 55.371,
+    "id": 82
+  },
+  {
+    "carga_sintetica": 83,
+    "cpu_sintetica": 55.3895,
+    "id": 83
+  },
+  {
+    "carga_sintetica": 84,
+    "cpu_sintetica": 63.0823,
+    "id": 84
+  },
+  {
+    "carga_sintetica": 85,
+    "cpu_sintetica": 57.2934,
+    "id": 85
+  },
+  {
+    "carga_sintetica": 86,
+    "cpu_sintetica": 59.0761,
+    "id": 86
+  },
+  {
+    "carga_sintetica": 87,
+    "cpu_sintetica": 61.1095,
+    "id": 87
+  },
+  {
+    "carga_sintetica": 88,
+    "cpu_sintetica": 66.5142,
+    "id": 88
+  },
+  {
+    "carga_sintetica": 89,
+    "cpu_sintetica": 59.2058,
+    "id": 89
+  },
+  {
+    "carga_sintetica": 90,
+    "cpu_sintetica": 63.4919,
+    "id": 90
+  },
+  {
+    "carga_sintetica": 91,
+    "cpu_sintetica": 65.0944,
+    "id": 91
+  },
+  {
+    "carga_sintetica": 92,
+    "cpu_sintetica": 69.0338,
+    "id": 92
+  },
+  {
+    "carga_sintetica": 93,
+    "cpu_sintetica": 68.9928,
+    "id": 93
+  },
+  {
+    "carga_sintetica": 94,
+    "cpu_sintetica": 70.0398,
+    "id": 94
+  },
+  {
+    "carga_sintetica": 95,
+    "cpu_sintetica": 64.7842,
+    "id": 95
+  },
+  {
+    "carga_sintetica": 96,
+    "cpu_sintetica": 66.753,
+    "id": 96
+  },
+  {
+    "carga_sintetica": 97,
+    "cpu_sintetica": 66.7877,
+    "id": 97
+  },
+  {
+    "carga_sintetica": 98,
+    "cpu_sintetica": 72.6419,
+    "id": 98
+  },
+  {
+    "carga_sintetica": 99,
+    "cpu_sintetica": 73.9773,
+    "id": 99
+  },
+  {
+    "carga_sintetica": 100,
+    "cpu_sintetica": 66.5092,
+    "id": 100
+  }
+]
