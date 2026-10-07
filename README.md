@@ -6,7 +6,7 @@ Este exemplo aprende uma reta entre carga e CPU **inteiramente sintéticas**. Em
 
 ## Preparação no WSL2 Ubuntu + VS Code
 
-Extraia o projeto, abra o diretório no VS Code conectado ao WSL e execute cada comando separadamente. Não é necessário instalar dependências avulsas; o pacote e suas dependências são declarados exclusivamente no pyproject.toml. O treinamento usa apenas a biblioteca padrão; setuptools é a ferramenta de empacotamento.
+Extraia o projeto, abra o diretório no VS Code conectado ao WSL e execute cada comando separadamente. O pacote e suas dependências são declarados exclusivamente no pyproject.toml. O treinamento usa a biblioteca padrão, e o gráfico usa Matplotlib; setuptools é a ferramenta de empacotamento.
 
 ```bash
 cd ~/PythonProjects/rmc-mlops-mini
@@ -52,7 +52,13 @@ O código aprende os coeficientes e a baseline exclusivamente no treino; avalia 
 "model_sha256": sha256(model_bytes),
 ```
 
-Esses campos fazem parte do dicionário `record` em `train.py`. Cada pasta de execução contém `data.json` (dados), `model.json` (coeficientes da reta) e `run.json` (metadados do experimento).
+Esses campos fazem parte do dicionário `record` em `train.py`. Cada pasta de execução contém `data.json` (dados), `model.json` (coeficientes da reta), `run.json` (metadados do experimento) e `regressao.png` (gráfico).
+
+## Veja a reta aprendida
+
+Abra o arquivo `regressao.png` gerado na pasta de cada execução. Círculos azuis representam os registros de treino; triângulos laranja representam o teste. A linha verde é a previsão do modelo salvo. Um segmento vertical tracejado destaca o erro de um ponto de teste: a distância entre observado e previsto.
+
+A função em `plot.py` lê os três JSONs salvos e desenha o modelo sem treiná-lo novamente. A figura mostra o que foi aprendido; `run.json` registra como esse modelo foi produzido. O script de gráfico também tem seu hash registrado. As retas de duas divisões podem ficar muito próximas visualmente, mesmo com coeficientes e métricas diferentes.
 
 ## Como funciona o train.py
 
@@ -61,7 +67,7 @@ Esses campos fazem parte do dicionário `record` em `train.py`. Cada pasta de ex
 3. Embaralha uma cópia dos dados com a semente de `--seed`. Com a fração padrão 0.8, separa 80 registros para treino e 20 para teste.
 4. Aprende a inclinação (`slope`) e o intercepto (`intercept`) da reta por mínimos quadrados. Calcula ambos exclusivamente no treino.
 5. Prevê a CPU sintética no teste e calcula o MAE. Também avalia uma baseline que sempre prevê a média da CPU do treino.
-6. Cria uma pasta com data UTC e identificador aleatório, salva os três arquivos e imprime os resultados.
+6. Cria uma pasta com data UTC e identificador aleatório, salva os registros e o gráfico e imprime seus caminhos.
 
 ### A reta aprendida
 

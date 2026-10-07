@@ -10,6 +10,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from uuid import uuid4
 
+from .plot import plot_run
+
 
 def sha256(data):
     return hashlib.sha256(data).hexdigest()
@@ -78,6 +80,7 @@ def main():
         "data_type": "synthetic_demo_not_real_vm_metrics",
         "data_sha256": sha256(data_bytes),
         "training_code_sha256": sha256(source.read_bytes()),
+        "plotting_code_sha256": sha256(source.with_name("plot.py").read_bytes()),
         "git": git_info(Path.cwd()),
         "python": platform.python_version(),
         "platform": platform.system(),
@@ -88,9 +91,11 @@ def main():
         "deployment": "not_performed",
     }
     (output / "run.json").write_text(json.dumps(record, indent=2) + "\n", encoding="utf-8")
+    chart = plot_run(output)
     print(f"Execução: {run_id}")
     print(f"MAE teste: {mae:.4f} | baseline: {baseline_mae:.4f}")
     print(f"Registro: {output / 'run.json'}")
+    print(f"Gráfico: {chart}")
 
 
 if __name__ == "__main__":

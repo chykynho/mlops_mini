@@ -4,10 +4,10 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rmc-mlops-mini"
-version = "0.1.0"
+version = "0.2.0"
 description = "Exemplo didático de rastreabilidade de treino com dados sintéticos"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = ["matplotlib>=3.10,<4"]
 
 [project.scripts]
 rmc-mlops-mini = "rmc_mlops_mini.train:main"
