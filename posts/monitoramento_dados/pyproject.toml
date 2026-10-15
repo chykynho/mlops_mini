@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rmc-mlops-monitoramento-post"
+version = "0.1.0"
+requires-python = ">=3.10"
+description = "Monitoramento com métricas reais de servidores e falha de escala simulada"
+dependencies = ["pandas>=2.2", "numpy>=1.26", "scikit-learn>=1.4", "matplotlib>=3.8", "ipykernel>=6.29", "nbformat>=5.10", "nbclient>=0.10"]
+
+[tool.setuptools]
+py-modules = []

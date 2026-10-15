@@ -1,0 +1,10 @@
+{
+  "fonte": "RMC_Recursos_vialactea.xlsx",
+  "sha256_planilha": "4548e863bcd93318b5b08340a3b4ea1ec05794fdfbfa31e06533a2e0f3c16108",
+  "abas": {
+    "cpu.csv": "HIST_CPU",
+    "mem.csv": "HIST_MEM"
+  },
+  "transformacoes": "Exportação das duas abas para CSV, mantendo nomes fictícios, datas, medidas e valores ausentes.",
+  "tipo": "Medições reais fornecidas pelo autor; falha de escala injetada apenas durante o experimento."
+}

@@ -1,0 +1,44 @@
+{
+  "fonte": "RMC_Recursos_vialactea.xlsx",
+  "tipo": "dados_reais_com_falha_de_escala_simulada",
+  "n_cpu": 21199,
+  "n_mem": 21199,
+  "vms_fonte": 241,
+  "vms_pares": 240,
+  "n_treino": 11384,
+  "n_referencia": 3256,
+  "n_avaliacao": 6318,
+  "mae_referencia_pp": 0.9238167856615597,
+  "mae_persistencia_pp": 0.9663187056338342,
+  "limite_mae_pp": 2.771450356984679,
+  "limite_entrada": 0.2,
+  "resultados": [
+    {
+      "cenario": "Dados originais",
+      "n": 6318,
+      "mae_pp": 1.0273143763975245,
+      "fracao_fora_faixa_central": 0.04241848686293131,
+      "alerta_entrada": false,
+      "alerta_desempenho": false
+    },
+    {
+      "cenario": "Falha de escala",
+      "n": 6318,
+      "mae_pp": 9.48078471778457,
+      "fracao_fora_faixa_central": 1.0,
+      "alerta_entrada": true,
+      "alerta_desempenho": true
+    },
+    {
+      "cenario": "Entradas restauradas",
+      "n": 6318,
+      "mae_pp": 1.0273143763975245,
+      "fracao_fora_faixa_central": 0.04241848686293131,
+      "alerta_entrada": false,
+      "alerta_desempenho": false
+    }
+  ],
+  "modelo_sha256": "f5a6c14663e8935ca56690188c356191f0756d82a866000b1a5e7fe7e9fd7de0",
+  "modelo_inalterado": true,
+  "python": "3.12.15"
+}
