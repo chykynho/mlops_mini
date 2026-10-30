@@ -1,0 +1,29 @@
+{
+  "natureza": "dados sintéticos",
+  "seed": 20261028,
+  "amostras_por_janela": 400,
+  "criterios_didaticos": {
+    "PSI": 0.25,
+    "MAE": 5.0
+  },
+  "resultados": {
+    "controle": {
+      "psi": 0.06273249501318233,
+      "mae": 1.5945938292458464,
+      "alerta_entrada": false,
+      "alerta_desempenho": false
+    },
+    "data_drift": {
+      "psi": 9.299165100258678,
+      "mae": 1.6142406313197017,
+      "alerta_entrada": true,
+      "alerta_desempenho": false
+    },
+    "concept_drift": {
+      "psi": 9.299165100258678,
+      "mae": 11.945942296441304,
+      "alerta_entrada": true,
+      "alerta_desempenho": true
+    }
+  }
+}
