@@ -1,0 +1,21 @@
+{
+  "fonte": "RMC_Recursos_vialactea.xlsx",
+  "tipo_dados": "medições históricas reais, identificadores fictícios",
+  "periodo_treino": "antes de 2026-05-01",
+  "periodo_referencia": "2026-05-01 a 2026-05-14",
+  "periodo_avaliacao": "a partir de 2026-05-15",
+  "n_treino": 11384,
+  "n_referencia": 3256,
+  "n_avaliacao": 6318,
+  "n_vms_avaliadas": 234,
+  "data_final": "2026-06-10",
+  "mae_ref_pp": 0.9238,
+  "limiar_mae_vm_pp_95p": 3.5301,
+  "janela_dias": 7,
+  "persistencia_dias": 3,
+  "vms_investigar_data_final": 22,
+  "PSI_CPU_ultima_janela": 0.0517,
+  "PSI_MEM_ultima_janela": 0.0146,
+  "MAE7_GLOBAL_ultima_janela": 1.1564,
+  "advertencia": "PSI nao prova concept drift. MAE maior sozinho nao prova mudanca de P(Y|X). Limiares exploratorios."
+}
